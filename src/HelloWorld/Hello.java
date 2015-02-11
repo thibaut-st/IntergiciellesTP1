@@ -1,6 +1,6 @@
-import java.rmi.Remote;
-import java.rmi.RemoteException;
+package HelloWorld;
 
+import java.rmi.*;
 /**
  * Created by thibaut on 11/02/15.
  */

@@ -1,3 +1,5 @@
+package HelloWorld;
+
 import java.rmi.RemoteException;
 
 /**
@@ -5,8 +7,14 @@ import java.rmi.RemoteException;
  */
 public class HelloImp implements Hello {
 
-    @Override
+    private String message;
+
+    public HelloImp(String s) throws RemoteException {
+        super();
+        message = s;
+    }
+
     public String sayHello() throws RemoteException {
-        return null;
+        return message;
     }
 }
